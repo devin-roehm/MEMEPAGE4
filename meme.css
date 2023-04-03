@@ -1,0 +1,68 @@
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+
+.title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2rem;
+	color: rgb(236, 47, 47);
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+}
+
+.caption {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
+	color: rgb(233, 23, 23);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+}
+
+.meme-text {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5rem;
+	color: rgb(235, 19, 19);
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+}
+
+.highlight {
+	color: #f1560e;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	margin: 20px 0;
+	border: 5px solid #333;
+	z-index: 0;
+}
+
+@media only screen and (max-width: 600px) {
+	.title {
+		font-size: 1.5rem;
+	}
+	.caption {
+		font-size: 1rem;
+	}
+	.meme-text {
+		font-size: 1.2rem;
+	}
+}
+
+
+
+
+
